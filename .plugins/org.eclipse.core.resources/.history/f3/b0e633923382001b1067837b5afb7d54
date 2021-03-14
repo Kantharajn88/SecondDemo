@@ -1,0 +1,21 @@
+package programs;
+
+public class PalindramNumber 
+{
+	public static void main(String[] args) 
+	{
+		int num,temp,rem,rev=0;
+		num=123;
+		temp=num;
+		while(num!=0)
+		{
+			rem=num%10;
+			num=num/10;
+			rev=rev*rem;
+			
+		}
+		System.out.println(rev);
+	}
+	
+
+}

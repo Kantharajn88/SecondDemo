@@ -1,0 +1,24 @@
+package programs;
+
+public class PalindramNumber 
+{
+	public static void main(String[] args) 
+	{
+		int num,temp,rem,rev=0;
+		num=121;
+		temp=num;
+		while(num!=0)
+		{
+			rem=num%10;
+			num=num/10;
+			rev=rev*10+rem;
+			
+		}
+		if(temp==rev)
+		System.out.println("Paindrm number is:"+temp);
+		else
+			System.out.println("Not a Paindrm number is:"+temp);
+	}
+	
+
+}

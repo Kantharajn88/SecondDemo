@@ -1,0 +1,22 @@
+package programs;
+
+public class Even_OddCount 
+{
+public static void main(String[] args) 
+{
+	int num=12345;
+	int evencount=0;
+	int oddcount=0;
+	while(num!=0)
+	{
+		int rem=num%10;
+		num=num/10;
+		if(rem%2==0)
+			evencount++;
+		else
+			oddcount++;
+	}
+System.out.println("Even count number is :"+evencount);
+System.out.println("Odd count number is :"+oddcount);
+}
+}

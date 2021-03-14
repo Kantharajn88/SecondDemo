@@ -1,0 +1,24 @@
+package programs;
+
+public class ArmstrongNumber
+{
+	public static void main(String[] args) 
+	{
+
+		int num,temp,rem,sum=0;
+		num=153;
+		temp=num;
+		while(num!=0)
+		{
+			rem=num%10;
+			num=num/10;
+			sum=sum+rem*rem*rem;
+
+
+		}
+		if(temp==sum)
+		System.out.println("Armstrong number is :"+sum);
+		else
+			System.out.println("Armstrong number is :"+sum);
+	}
+}

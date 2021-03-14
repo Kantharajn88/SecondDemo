@@ -1,0 +1,21 @@
+package programs;
+
+public class SumofDigits 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a Digits");
+		int num=sc.nextInt();
+		int count=0;
+		while(count>0)
+		{
+			int rem=num%10;
+			int sum=sum+rem;
+			
+		}
+		System.out.println(sum);
+		
+	}
+
+}

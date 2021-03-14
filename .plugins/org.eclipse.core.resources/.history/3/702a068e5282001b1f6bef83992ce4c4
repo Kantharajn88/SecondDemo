@@ -1,0 +1,11 @@
+package StringPrograms;
+
+public class RemoveSpace 
+{
+	public static void main(String[] args) 
+	{
+		String str="Java is programing langauage";
+		int =str.replaceAll("//s","");
+		System.out.println();
+	}
+}

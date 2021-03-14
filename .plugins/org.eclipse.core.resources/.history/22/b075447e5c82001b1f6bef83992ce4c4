@@ -1,0 +1,9 @@
+package number_programs;
+
+public class Maximum_MinInArray 
+{
+public static void main(String[] args) 
+{
+	int a[]=
+}
+}
